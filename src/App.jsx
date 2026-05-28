@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*CONTEXT*/
 
-import { CartProvider } from './context/CartContext';
-import { ThemeProvider } from './context/ThemeContext';
+import { CartProvider } from './Context/CartContext';
+import { ThemeProvider } from './Context/ThemeContext';
 
 /*LAYOUT*/
 

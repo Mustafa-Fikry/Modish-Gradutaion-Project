@@ -23,7 +23,7 @@ const Products = () => {
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1.6, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.1 }}
+      viewport={{ once: false, amount: 0.1 }}
       className="py-16 px-14 bg-[#F2F2F7] dark:bg-[#121212]"
       id="product"
     >

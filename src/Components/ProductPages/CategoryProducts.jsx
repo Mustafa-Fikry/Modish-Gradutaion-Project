@@ -48,23 +48,6 @@ const CategoryProducts = () => {
 
   };
 
-  const toggleLiked = (e, id) => {
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    if (liked.includes(id)) {
-
-      setLiked(liked.filter(item => item !== id));
-
-    } else {
-
-      setLiked([...liked, id]);
-
-    }
-
-  };
-
   useEffect(() => {
 
     setLoading(true);

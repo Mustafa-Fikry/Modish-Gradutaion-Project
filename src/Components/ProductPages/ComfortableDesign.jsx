@@ -4,7 +4,7 @@ import { HiOutlineHeart, HiHeart } from 'react-icons/hi'
 import { Link, useNavigate } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useCart } from '../../context/CartContext';
+import { useCart } from '../../Context/CartContext';
 
 const BASE_URL = "https://gradutionapi-production.up.railway.app/api/v1/products";
 const MEN_CATEGORY_ID = "69faa0de4733f01c24652a4d";

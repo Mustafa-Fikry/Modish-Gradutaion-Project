@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { HiMenu, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom';
-import { useCart } from '../../context/CartContext';
-import { useTheme } from '../../context/ThemeContext';
+import { useCart } from '../../Context/CartContext';
+import { useTheme } from '../../Context/ThemeContext';
 
 const Navbar = () => {
 

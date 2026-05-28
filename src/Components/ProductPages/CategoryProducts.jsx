@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useCart } from '../../context/CartContext';
+import { useCart } from '../../Context/CartContext';
 
 const categories = [
   { name: 'All', icon: '🛍️', apiCategory: '' },

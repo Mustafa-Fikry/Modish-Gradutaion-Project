@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import { useCart } from '../../context/CartContext';
+import { useCart } from '../../Context/CartContext';
 
 const ProductDetails = () => {
 

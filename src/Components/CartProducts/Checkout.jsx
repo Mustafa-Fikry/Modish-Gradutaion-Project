@@ -5,7 +5,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 import emailjs from '@emailjs/browser';
-import { useCart } from '../../context/CartContext';
+import { useCart } from '../../Context/CartContext';
 
 const BASE_URL = 'https://gradutionapi-production.up.railway.app/api/v1';
 const SERVICE_ID = 'service_ecz2mk8';

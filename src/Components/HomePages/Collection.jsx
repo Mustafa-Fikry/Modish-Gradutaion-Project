@@ -1,5 +1,4 @@
 import React from 'react'
-import collectionImg from '../../assets/Beckham.jpeg'
 import {motion} from "framer-motion"
 import { useNavigate } from 'react-router-dom';
 

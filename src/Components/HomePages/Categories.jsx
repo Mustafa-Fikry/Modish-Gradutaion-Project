@@ -21,8 +21,8 @@ const Categories = () => {
       <div className="container mx-auto">
 
         <div className="flex items-center justify-between mb-12">
-          <h2
-
+          <h2 
+            onClick={() => navigate('/category-products')}
             className="text-3xl font-bold text-[#524B6B] cursor-pointer hover:opacity-80 transition-opacity"
           >
             Browse Categories

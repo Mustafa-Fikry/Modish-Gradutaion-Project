@@ -23,7 +23,7 @@ const Categories = () => {
         <div className="flex items-center justify-between mb-12">
           <h2
 
-            className="text-3xl font-bold text-[#524B6B] "
+            className="text-3xl font-bold text-[#524B6B] cursor-pointer hover:opacity-80 transition-opacity"
           >
             Browse Categories
           </h2>
